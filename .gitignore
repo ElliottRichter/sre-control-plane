@@ -1,0 +1,58 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+*.tfvars
+crash.log
+
+# Secrets
+.env
+.env.*
+*.secret
+*.pem
+*.key
+*.crt
+*.p12
+*.kubeconfig
+secrets.yml
+vault.yml
+
+# SSH
+ssh/keys/*
+!ssh/keys/.gitkeep
+
+# Logs
+*.log
+
+# Linux
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jenkins
+jenkins_home/
+
+# Kubernetes
+kubeconfig
+.kube/
+
+# Ansible
+*.retry
+
+# Python
+__pycache__/
+
+# Backup archives
+*.tar.gz
+*.zip
+*.bak
+
+# Local inventory overrides
+inventory.local
+
+# Sensitive exports
+exports/
